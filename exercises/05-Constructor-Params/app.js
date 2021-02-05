@@ -1,8 +1,8 @@
 class Person{
-	constructor(){
-		this._name = 'Bob';
-		this._lastName = 'Dylan';
-		this._birthDate = 'May 24, 1941';
+	constructor(name,lastName,birthDate){
+		this._name = name;
+		this._lastName = lastName;
+		this._birthDate = birthDate;
 	}
 }
 

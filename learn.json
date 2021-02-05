@@ -1,4 +1,32 @@
 {
+    "config": {
+        "port": 3000,
+        "address": "https://turquoise-platypus-j0w59bjl.ws-us03.gitpod.io",
+        "editor": {
+            "mode": "gitpod",
+            "version": "1.0.52"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ]
+    },
+    "entries": {
+        "html": "index.html",
+        "vanillajs": "index.js",
+        "react": "app.jsx",
+        "node": "app.js",
+        "python3": "app.py",
+        "java": "app.java"
+    },
     "port": 3000,
     "address": "https://c3a9ab97-1679-448f-b67c-17e2571749b3.ws-us03.gitpod.io",
     "editor": "gitpod",
@@ -24,5 +52,259 @@
     "duration": 4,
     "description": "Learn how objects and classes work and why they are so usefull n coding.",
     "title": "Object Oriented Programing In Python",
-    "slug": "object-oriented-programing-in-python"
+    "slug": "object-oriented-programing-in-python",
+    "session": 2474050802639837700,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/01-introduction",
+            "slug": "01-introduction",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "01-introduction",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-introduction/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/02-instance-of-datetime",
+            "slug": "02-instance-of-datetime",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "02-instance-of-datetime",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-instance-of-datetime/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-instance-of-datetime/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-instance-of-datetime/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 2,
+            "path": "exercises/03-Create-new-class",
+            "slug": "03-Create-new-class",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "03-Create-new-class",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-Create-new-class/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-Create-new-class/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-Create-new-class/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": "exercises/04-Define-your-first-properties",
+            "slug": "04-Define-your-first-properties",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "04-Define-your-first-properties",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-Define-your-first-properties/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Define-your-first-properties/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Define-your-first-properties/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 4,
+            "path": "exercises/05-Constructor-Params",
+            "slug": "05-Constructor-Params",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "05-Constructor-Params",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-Constructor-Params/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Constructor-Params/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-Constructor-Params/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 5,
+            "path": "exercises/06-Hello-world-with-classes",
+            "slug": "06-Hello-world-with-classes",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "06-Hello-world-with-classes",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-Hello-world-with-classes/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Hello-world-with-classes/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-Hello-world-with-classes/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 6,
+            "path": "exercises/07-Print-with-Class-Printer",
+            "slug": "07-Print-with-Class-Printer",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "07-Print-with-Class-Printer",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-Print-with-Class-Printer/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-Print-with-Class-Printer/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-Print-with-Class-Printer/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 7,
+            "path": "exercises/08-Create-simple-class",
+            "slug": "08-Create-simple-class",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "08-Create-simple-class",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-Create-simple-class/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Create-simple-class/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Create-simple-class/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 8,
+            "path": "exercises/09-Calculated-property",
+            "slug": "09-Calculated-property",
+            "translations": {
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "09-Calculated-property",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-Calculated-property/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Calculated-property/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-Calculated-property/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        }
+    ]
 }

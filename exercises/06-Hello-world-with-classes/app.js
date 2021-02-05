@@ -16,3 +16,10 @@ class Printer{
 }
 
 //Your code here
+//Create a new object instance of the class Printer and assign it to a variable called myPrinter
+let myPrinter = new Printer();
+
+//Call the function printerTest of the class Printer and store the result in a variable called testResult
+let testResult = myPrinter.printerTest();
+//Print on the console the variable testResult
+console.log(testResult);

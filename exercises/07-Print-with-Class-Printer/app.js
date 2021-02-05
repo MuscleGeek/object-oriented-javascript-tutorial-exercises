@@ -15,6 +15,10 @@ class Printer{
     } 
     
     //you can add new class functions here
+
+    getModel() { 
+        return this._model;
+    }
 }
 
 let epsonPrinter = new Printer();
